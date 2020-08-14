@@ -1,0 +1,29 @@
+{
+    "name": "liyuexi/upload-test",
+    "description": "测试",
+    "type": "library",
+    "authors": [
+        {
+            "name": "王明学",
+            "email": "cumt_wangmingxue@126.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Upload\\": "src/"
+        }
+
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

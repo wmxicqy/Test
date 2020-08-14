@@ -8,6 +8,7 @@
             "email": "cumt_wangmingxue@126.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.2"
     },
